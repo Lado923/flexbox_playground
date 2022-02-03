@@ -1,0 +1,65 @@
+.flex-child {
+    width: 9vh;
+    height: 9vh;
+    margin: 2px;
+    background-color: #5ec8db;
+    color: white;
+    font-size: 14px;
+}
+
+.flex-parent{
+    background:grey;
+    height: 100vh;
+}
+
+/* FLEX FLEX FLEX */
+
+.flex-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-child {
+    justify-self: flex-end;
+}
+
+.child__1{
+flex-grow: 1;
+}
+
+.child__2{
+    flex-grow: 1;  
+}
+
+.child__3{
+    align-self: flex-start;
+}
+
+.child__4{
+    
+}
+
+.child__4{
+    
+}
+
+.child__6{
+    
+}
+
+.child__7{
+    
+}
+
+.child__8{
+    
+}
+
+.child__9{
+    
+}
+
+.child__10{
+    
+}
